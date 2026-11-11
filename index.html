@@ -64,9 +64,9 @@
 				<div id="navbar" class="collapse">
 					<ul>
 						<li><a href="#" data-nav-section="about">Home</a></li>
-						<li><a href="#" data-nav-section="experience">Projects</a></li>
-						<!-- <li><a href="#" data-nav-section="skills">Skills</a></li>-->
 						<li><a href="#" data-nav-section="work">Work</a></li>
+						<!-- <li><a href="#" data-nav-section="skills">Skills</a></li>-->
+						<li><a href="#" data-nav-section="experience">Projects</a></li>
 
 					</ul>
 				</div>
@@ -130,196 +130,6 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					</div>
 				</div>
 			</section>
-
-
-
-			<section class="colorlib-experience" data-section="experience">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Projects</span>
-							<h2 class="colorlib-heading animate-box">Project Experience</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-				         <div class="timeline-centered">
-
-						 
-						 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
-					               </div>
-
-					               <div class="timeline-label">
-					                  <h2><a href=""> ATI Work Summary</a> </h2>
-							 <a class="btn btn-primary btn-learn" href="ATI.pdf" download="ATI.pdf">Download ATI Work Summary <i class="icon-download4"></i></a>
-					                  <p> Click the link to view a comprhensive portfolio of projects in my role as a developer for the Academic Technology Innovation team at UCSD</p>
-					         </article>
-
-
-						   <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
-					               </div>
-
-					               <div class="timeline-label">
-					                  <h2><a href="https://github.com/ahmedCoder12424/Age-Detector">ECE 176 Project: Pytorch CNN Age Detector </a> </h2>
-					                  <p><a href='https://github.com/ahmedCoder12424/Age-Detector'>Github Link</a><br>This project aims to develop a system capable of accurately predicting a person's age from facial images by identifying distinctive features. We utilize the \href{https://www.kaggle.com/datasets/nipunarora8/age-gender-and-ethnicity-face-data-csv}{Age, Gender, and Ethnicity Face Data CSV} dataset from Kaggle~\cite{AgeGenderEthnicityDataset}, which has faces across different ages. Our approach began with Logistic Regression as a baseline model, followed by experiments with CNN architectures—including VGG, ResNet, and Inception Modules—for improved classification performance. While the baseline model achieved an accuracy of 0.11, our top-performing CNN model with  reached an  accuracy of 0.3810. These results show the effectiveness of CNNs in age detection, which could be largely applied in personalized marketing and human-computer interaction.</p>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
-					               </div>
-
-					               <div class="timeline-label">
-					                  <h2><a href="https://github.com/a2jensen/CSE-110-TritonMates">CSE 110 Project: TritonMates</a> </h2>
-					                  <p><a href='https://github.com/a2jensen/CSE-110-TritonMates'>Github Link</a><br> This was the major group project for CSE 110: Software Engineering Course. We created a web-app for roommates where we implemented a points system where users can unlock fun avatars upon completing tasks. This was done to incentivize good behavior. Moreover, our app has a wizard to report serious conflicts with a step by step process to descalate tensions and encourage constructive feedback. Lastly, we have an events component to improve roomamte cohesion. I worked extensively on the firebase backend particularly on creating and integrating the backend functions for the task components, the wizard to report conflicts, and the backend for the user profile and points.</p>
-					               </div>
-					            </div>
-					         </article>
-
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="https://github.com/k3liang/Problematic-Internet-Use-Predictor"></a> CSE 151A Project: Problematic Internet Use Predictor</h2>
-					                  <p><a href='https://github.com/k3liang/Problematic-Internet-Use-Predictor'>Github Link</a><br> This project from my CSE151A Machine Learning Course uses the Kaggle dataset provided by the Child Mind Institute - https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/overview. The project centers around predicting whether or not a child has problematic internet use. To be more specific, the model will predict a person’s Severity Impairment Index (SII), an integer from 0 to 3, which is a number established by the Child Mind Institute to measure how excessive a person’s internet use is. The prediction will be based on multiple different measured information about the participant; features include demographics, physical measurements, fitness gram tests, and other assessment scores. We chose this topic because it tackles a highly relevant issue in today’s world, where constant internet activity has become deeply entrenched in daily life, often accompanied by reported mental health challenges, and thus many people may connect with this project and find the implications interesting or insightful as a result. A lot of times, you might hear about “iPad kids” that are always impulsively watching something on their electronic devices rather than engaging with the physical world, so it would be really cool if we could somehow classify problematic behavior, so that such behavior could be addressed early on. In particular, having a good predictive model of one’s SII based on several of their individual activities or attributes provides good insight into what combination of features is most associated with internet-related mental health challenges, and this information could be distributed to the general public, helping parents guide their children to adopting better lifestyle choices and habits and being more self-aware. Additionally, if a good predictive model is actually deployed, then perhaps parents could make use of the model as a check to the severity of their child’s internet use, and then use that information to make changes that steer the child away from their devices. In the context of ML and our learning experience, this project was also very interesting in that the structure of the data as originally presented was very complex and even unusual; a lot of the data was actually missing values, which makes a little sense if you consider that some of the children participants were able to participate more than others (a 5 year old will be able to participate in less tests than a 12 year old, for instance).</p>
-					               </div>
-					            </div>
-					         </article>
-
-							 <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="https://github.com/subGho/UCSD-CSE-118-Team-5"></a> ResRemind: A Smart Residential Reminder IOT System</h2>
-									    <a class="btn btn-primary btn-learn" href="res_report.pdf" download="res_report.pdf">Download Report<class="icon-download4"></i></a>
-									   <p><a href='https://github.com/subGho/UCSD-CSE-118-Team-5'>Github Link</a><br>This project integrates Raspberry Pi (ultrasonic, break beam, temperature/humidity sensors) with Amazon Echo to create system where Pi sensors detect user walking through their door, prompting the Echo device to announce daily reminders including the indoor weather, outdoor weather, and the user’s calendar summary for the day. The user’s google calendar schedule is summarized in a user friendly format by interfacing with Gemini API. The overall logic for announcements is handled by a custom Alexa skill for the Echo device. Inter-device networking is accomplished by sending POST/GET requests to Flask server which accesses MongoDB database which stores the user data. Ensuring hands free, ubiquitous design, the custom skill is launched by triggering a Smart Home virtual switch which triggers an Alexa Routine which eventually launches the skill to deliver the announcements.</p>
-					               </div>
-					            </div>
-					         </article>
-
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="https://github.com/ahmedCoder12424/NEMO">IEEE Project</a> </h2>
-					                  <p> <a href='https://github.com/ahmedCoder12424/NEMO'>Github Link</a><br>In this group project for UCSD IEEE club, we built a flask based app displaying all current campus events in a single unified environment. We utilized selenium to scrape club instagrams with Jupyter Notebook Python scripts.</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-none">
-					               </div>
-					            </div>
-					         </article>
-					      </div>
-					   </div>
-				   </div>
-				</div>
-			</section>
-
-
-			<!--	<section class="colorlib-skills" data-section="skills">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Specialty</span>
-							<h2 class="colorlib-heading animate-box">My Skills</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Photoshop</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-								    <span>75%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>jQuery</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-								    <span>60%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>HTML5</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>85%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>CSS3</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>WordPress</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
-								    <span>70%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>SEO</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>-->
-
 
 
 
@@ -437,6 +247,196 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					            </div>
 					         </article>
 
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+
+
+			<!--	<section class="colorlib-skills" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Specialty</span>
+							<h2 class="colorlib-heading animate-box">My Skills</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Photoshop</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
+								    <span>75%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>jQuery</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
+								    <span>60%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>HTML5</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+								    <span>85%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>CSS3</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								    <span>90%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>WordPress</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>SEO</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <span>80%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>-->
+
+
+
+
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Projects</span>
+							<h2 class="colorlib-heading animate-box">Project Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+
+						 
+						 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href=""> ATI Work Summary</a> </h2>
+							 <a class="btn btn-primary btn-learn" href="ATI.pdf" download="ATI.pdf">Download ATI Work Summary <i class="icon-download4"></i></a>
+					                  <p> Click the link to view a comprhensive portfolio of projects in my role as a developer for the Academic Technology Innovation team at UCSD</p>
+					         </article>
+
+
+						   <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="https://github.com/ahmedCoder12424/Age-Detector">ECE 176 Project: Pytorch CNN Age Detector </a> </h2>
+					                  <p><a href='https://github.com/ahmedCoder12424/Age-Detector'>Github Link</a><br>This project aims to develop a system capable of accurately predicting a person's age from facial images by identifying distinctive features. We utilize the \href{https://www.kaggle.com/datasets/nipunarora8/age-gender-and-ethnicity-face-data-csv}{Age, Gender, and Ethnicity Face Data CSV} dataset from Kaggle~\cite{AgeGenderEthnicityDataset}, which has faces across different ages. Our approach began with Logistic Regression as a baseline model, followed by experiments with CNN architectures—including VGG, ResNet, and Inception Modules—for improved classification performance. While the baseline model achieved an accuracy of 0.11, our top-performing CNN model with  reached an  accuracy of 0.3810. These results show the effectiveness of CNNs in age detection, which could be largely applied in personalized marketing and human-computer interaction.</p>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="https://github.com/a2jensen/CSE-110-TritonMates">CSE 110 Project: TritonMates</a> </h2>
+					                  <p><a href='https://github.com/a2jensen/CSE-110-TritonMates'>Github Link</a><br> This was the major group project for CSE 110: Software Engineering Course. We created a web-app for roommates where we implemented a points system where users can unlock fun avatars upon completing tasks. This was done to incentivize good behavior. Moreover, our app has a wizard to report serious conflicts with a step by step process to descalate tensions and encourage constructive feedback. Lastly, we have an events component to improve roomamte cohesion. I worked extensively on the firebase backend particularly on creating and integrating the backend functions for the task components, the wizard to report conflicts, and the backend for the user profile and points.</p>
+					               </div>
+					            </div>
+					         </article>
+
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="https://github.com/k3liang/Problematic-Internet-Use-Predictor"></a> CSE 151A Project: Problematic Internet Use Predictor</h2>
+					                  <p><a href='https://github.com/k3liang/Problematic-Internet-Use-Predictor'>Github Link</a><br> This project from my CSE151A Machine Learning Course uses the Kaggle dataset provided by the Child Mind Institute - https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/overview. The project centers around predicting whether or not a child has problematic internet use. To be more specific, the model will predict a person’s Severity Impairment Index (SII), an integer from 0 to 3, which is a number established by the Child Mind Institute to measure how excessive a person’s internet use is. The prediction will be based on multiple different measured information about the participant; features include demographics, physical measurements, fitness gram tests, and other assessment scores. We chose this topic because it tackles a highly relevant issue in today’s world, where constant internet activity has become deeply entrenched in daily life, often accompanied by reported mental health challenges, and thus many people may connect with this project and find the implications interesting or insightful as a result. A lot of times, you might hear about “iPad kids” that are always impulsively watching something on their electronic devices rather than engaging with the physical world, so it would be really cool if we could somehow classify problematic behavior, so that such behavior could be addressed early on. In particular, having a good predictive model of one’s SII based on several of their individual activities or attributes provides good insight into what combination of features is most associated with internet-related mental health challenges, and this information could be distributed to the general public, helping parents guide their children to adopting better lifestyle choices and habits and being more self-aware. Additionally, if a good predictive model is actually deployed, then perhaps parents could make use of the model as a check to the severity of their child’s internet use, and then use that information to make changes that steer the child away from their devices. In the context of ML and our learning experience, this project was also very interesting in that the structure of the data as originally presented was very complex and even unusual; a lot of the data was actually missing values, which makes a little sense if you consider that some of the children participants were able to participate more than others (a 5 year old will be able to participate in less tests than a 12 year old, for instance).</p>
+					               </div>
+					            </div>
+					         </article>
+
+							 <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="https://github.com/subGho/UCSD-CSE-118-Team-5"></a> ResRemind: A Smart Residential Reminder IOT System</h2>
+									    <a class="btn btn-primary btn-learn" href="res_report.pdf" download="res_report.pdf">Download Report<class="icon-download4"></i></a>
+									   <p><a href='https://github.com/subGho/UCSD-CSE-118-Team-5'>Github Link</a><br>This project integrates Raspberry Pi (ultrasonic, break beam, temperature/humidity sensors) with Amazon Echo to create system where Pi sensors detect user walking through their door, prompting the Echo device to announce daily reminders including the indoor weather, outdoor weather, and the user’s calendar summary for the day. The user’s google calendar schedule is summarized in a user friendly format by interfacing with Gemini API. The overall logic for announcements is handled by a custom Alexa skill for the Echo device. Inter-device networking is accomplished by sending POST/GET requests to Flask server which accesses MongoDB database which stores the user data. Ensuring hands free, ubiquitous design, the custom skill is launched by triggering a Smart Home virtual switch which triggers an Alexa Routine which eventually launches the skill to deliver the announcements.</p>
+					               </div>
+					            </div>
+					         </article>
+
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="https://github.com/ahmedCoder12424/NEMO">IEEE Project</a> </h2>
+					                  <p> <a href='https://github.com/ahmedCoder12424/NEMO'>Github Link</a><br>In this group project for UCSD IEEE club, we built a flask based app displaying all current campus events in a single unified environment. We utilized selenium to scrape club instagrams with Jupyter Notebook Python scripts.</p>
+					               </div>
+					            </div>
+					         </article>
 
 					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
 					            <div class="timeline-entry-inner">
