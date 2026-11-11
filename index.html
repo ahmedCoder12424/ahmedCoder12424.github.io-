@@ -104,27 +104,6 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 									</div>
 								</div>
 							</div>
-							<div class="row">
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-									<div class="services color-1">
-										<span class="icon2"><i class="icon-bulb"></i></span>
-										<h3>AI</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-									<div class="services color-2">
-										<span class="icon2"><i class="icon-globe-outline"></i></span>
-										<h3>Computer Engineering</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-									<div class="services color-3">
-										<span class="icon2"><i class="icon-data"></i></span>
-										<h3>Network Engineering</h3>
-									</div>
-								</div>
-								
-							</div>
 							
 						</div>
 					</div>
@@ -395,7 +374,41 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 
 					               <div class="timeline-label">
 					                  <h2><a href="https://github.com/a2jensen/CSE-110-TritonMates"> Dualcore Hardware Accelerator for Attention Mechanism in Machine Learning</a> </h2>
-					                  <p><a href='https://github.com/a2jensen/CSE-110-TritonMates'>Github Link</a><br> This was the major group project for CSE 110: Software Engineering Course. We created a web-app for roommates where we implemented a points system where users can unlock fun avatars upon completing tasks. This was done to incentivize good behavior. Moreover, our app has a wizard to report serious conflicts with a step by step process to descalate tensions and encourage constructive feedback. Lastly, we have an events component to improve roomamte cohesion. I worked extensively on the firebase backend particularly on creating and integrating the backend functions for the task components, the wizard to report conflicts, and the backend for the user profile and points.</p>
+					                  <p><a href='https://github.com/a2jensen/CSE-110-TritonMates'>Github Link</a><br> 
+											<ul>
+											<li>
+												Developed a dual-core 1D vector architecture for transformer attention
+												matrix computation, implementing behavioral RTL for dot products,
+												normalization, inter-core communication, and FSM-based control.
+											</li>
+
+											<li>
+												Performed iterative end-to-end functional and physical design validation,
+												including synthesis using Synopsys Design Compiler and place-and-route
+												(PnR) using Cadence Innovus, with gate-level simulation to verify
+												synthesized functionality.
+											</li>
+
+											<li>
+												Implemented performance optimizations including sparsity-aware computation,
+												pipelining, multicycle timing paths, and asynchronous FIFOs with
+												FSM-based controllers for dual-core communication.
+											</li>
+
+											<li>
+												Resolved a challenging high-impedance (High-Z) error by implementing
+												custom counters in behavioral RTL to preserve critical logic during synthesis.
+											</li>
+
+											<li>
+												<strong>Achieved a 20 mW reduction in power consumption, positive timing
+												slack under typical conditions, and near-zero worst negative slack (WNS).</strong>
+											</li>
+										</ul>
+
+									
+									
+									</p>
 					               </div>
 					            </div>
 					         </article>
