@@ -381,7 +381,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 											<img src="synthesized_chip.png" style="height: 150px; max-height: 100%; width: auto;">
 											<img src="dualcore_diagram.png" style="width: 250px; max-width: 100%; height: auto;">
 										</div>
-
+										<br>
 											<ul>
 											<li>
 												Developed a dual-core 1D vector architecture for transformer attention
@@ -430,8 +430,31 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 
 					               <div class="timeline-label">
 					                  <h2><a href="https://github.com/a2jensen/CSE-110-TritonMates">Optimizing Croc Embedded-Class SoC (ETH Zurich)</a> </h2>
-					                  <p><a href='https://github.com/a2jensen/CSE-110-TritonMates'>Github Link</a><br> This was the major group project for CSE 110: Software Engineering Course. We created a web-app for roommates where we implemented a points system where users can unlock fun avatars upon completing tasks. This was done to incentivize good behavior. Moreover, our app has a wizard to report serious conflicts with a step by step process to descalate tensions and encourage constructive feedback. Lastly, we have an events component to improve roomamte cohesion. I worked extensively on the firebase backend particularly on creating and integrating the backend functions for the task components, the wizard to report conflicts, and the backend for the user profile and points.</p>
-					               </div>
+									   <p><a class="btn btn-primary btn-learn" href="croc_optimizations.pdf" download="croc_optimizations.pdf"> Project Report <i class="icon-download4"></i></a>
+					                    <img src="croc_chip.png" style="height: 150px; max-height: 100%; width: auto;">
+										<p><a href='https://github.com/a2jensen/CSE-110-TritonMates'>Github Link</a><br>
+											<ul>
+												<li>
+													Optimized Croc's datapath using the VLSIFFRA library by integrating
+													alternative adder and multiplier architectures, including
+													Han-Carlson, Brent-Kung, and Kogge-Stone, replacing baseline
+													arithmetic units and improving branch target address calculation.
+												</li>
+
+												<li>
+													Developed a custom Python script to generate the required logic
+													gates for adders and multipliers, overcoming VLSIFFRA library
+													limitations and enabling compatibility with
+													<strong>IHP 130nm (IHP13) technology</strong>.
+												</li>
+
+												<li>
+													Conducted systematic parameter sweeps of SRAM word count and
+													floorplan aspect ratio, identifying configurations that achieved
+													<strong>improvements in power, performance, and area (PPA)</strong>.
+												</li>
+											</ul>
+										</p>
 					            </div>
 					         </article>
 
@@ -446,8 +469,30 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 
 					               <div class="timeline-label">
 					                  <h2><a href="https://github.com/a2jensen/CSE-110-TritonMates">MBFF Clustering Engine in OpenROAD</a> </h2>
-					                  <p><a href='https://github.com/a2jensen/CSE-110-TritonMates'>Github Link</a><br> This was the major group project for CSE 110: Software Engineering Course. We created a web-app for roommates where we implemented a points system where users can unlock fun avatars upon completing tasks. This was done to incentivize good behavior. Moreover, our app has a wizard to report serious conflicts with a step by step process to descalate tensions and encourage constructive feedback. Lastly, we have an events component to improve roomamte cohesion. I worked extensively on the firebase backend particularly on creating and integrating the backend functions for the task components, the wizard to report conflicts, and the backend for the user profile and points.</p>
-					               </div>
+									 <p><a class="btn btn-primary btn-learn" href="mbaff_clustering_report.pdf" download="mbaff_clustering_report.pdf"> Project Report <i class="icon-download4"></i></a>
+										
+					                  <p><a href='https://github.com/a2jensen/CSE-110-TritonMates'>Github Link</a><br>
+
+											<ul>
+												<li>
+													Developed a clustering engine using OpenROAD/OpenDB APIs to replace
+													single-bit flip-flops (SBFFs) with 2-bit and 4-bit multi-bit
+													flip-flops (MBFFs), simplifying clock distribution and optimizing
+													power, performance, and area (PPA).
+												</li>
+
+												<li>
+													Leveraged literature-driven research to replace an initial greedy
+													distance-based clustering approach with a power- and timing-aware
+													heuristic, achieving <strong>significant improvements in total
+													negative slack (TNS), static power, and total power</strong>
+													while <strong>maintaining baseline wirelength and area</strong>.
+												</li>
+											</ul>
+									 </p>
+										
+										
+									
 					            </div>
 					         </article>
 
